@@ -48,7 +48,7 @@ export default function LandingPage() {
       buttons={[{ text: "Start a Project", href: "#contact" }]}
       mediaItems={[
         { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-minimalist-high-end-architectural-abst-1774935333842-3f55bcd8.png", imageAlt: "Swiss Design Inspiration" },
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-close-up-shot-of-a-professional-digita-1774935336409-4a0a3590.png", imageAlt: "Design System" }
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-close-up-shot-of-a-professional-digita-1774935336409-4a0a3590.png?_wi=1", imageAlt: "Design System" }
       ]}
       mediaAnimation="blur-reveal"
       rating={5}
@@ -66,22 +66,22 @@ export default function LandingPage() {
         {
           title: "Web Design",          description: "Crafting intuitive interfaces rooted in Swiss design principles.",          icon: Layout,
           mediaItems: [
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-close-up-shot-of-a-professional-digita-1774935336409-4a0a3590.png", imageAlt: "Design" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-close-up-shot-of-a-professional-digita-1774935336409-4a0a3590.png", imageAlt: "Design" }
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-close-up-shot-of-a-professional-digita-1774935336409-4a0a3590.png?_wi=2", imageAlt: "Design" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-close-up-shot-of-a-professional-digita-1774935336409-4a0a3590.png?_wi=3", imageAlt: "Design" }
           ]
         },
         {
           title: "Development",          description: "High-performance digital products engineered for long-term growth.",          icon: Code,
           mediaItems: [
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/conceptual-high-tech-development-workspa-1774935333741-d2a2d385.png", imageAlt: "Dev" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/conceptual-high-tech-development-workspa-1774935333741-d2a2d385.png", imageAlt: "Dev" }
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/conceptual-high-tech-development-workspa-1774935333741-d2a2d385.png?_wi=1", imageAlt: "Dev" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/conceptual-high-tech-development-workspa-1774935333741-d2a2d385.png?_wi=2", imageAlt: "Dev" }
           ]
         },
         {
           title: "Branding",          description: "Identity systems designed to resonate and endure in a digital world.",          icon: PenTool,
           mediaItems: [
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/premium-branding-materials-business-card-1774935333994-98c0e9cf.png", imageAlt: "Brand" },
-            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/premium-branding-materials-business-card-1774935333994-98c0e9cf.png", imageAlt: "Brand" }
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/premium-branding-materials-business-card-1774935333994-98c0e9cf.png?_wi=1", imageAlt: "Brand" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/premium-branding-materials-business-card-1774935333994-98c0e9cf.png?_wi=2", imageAlt: "Brand" }
           ]
         }
       ]}
