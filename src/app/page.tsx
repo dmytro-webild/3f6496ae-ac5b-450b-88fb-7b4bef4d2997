@@ -29,26 +29,11 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleFullscreen
       navItems={[
-        {
-          name: "Home",
-          id: "hero",
-        },
-        {
-          name: "Services",
-          id: "services",
-        },
-        {
-          name: "Portfolio",
-          id: "portfolio",
-        },
-        {
-          name: "About",
-          id: "about",
-        },
-        {
-          name: "Contact",
-          id: "contact",
-        },
+        { name: "Home", id: "hero" },
+        { name: "Services", id: "services" },
+        { name: "Portfolio", id: "portfolio" },
+        { name: "About", id: "about" },
+        { name: "Contact", id: "contact" },
       ]}
       brandName="Vista Digital"
     />
@@ -56,39 +41,14 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroSplitDualMedia
-      background={{
-        variant: "gradient-bars",
-      }}
+      background={{ variant: "gradient-bars" }}
       title="Swiss Precision in Every Pixel."
       description="Vista Digital crafts high-end web experiences for forward-thinking startups and SMBs. We blend Swiss design tradition with modern engineering excellence."
       tag="WEB DESIGN & DEVELOPMENT"
-      buttons={[
-        {
-          text: "Start a Project",
-          href: "#contact",
-        },
-      ]}
+      buttons={[{ text: "Start a Project", href: "#contact" }]}
       mediaItems={[
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-minimalist-high-end-architectural-abst-1774935333842-3f55bcd8.png?_wi=1",
-          imageAlt: "Swiss Design Inspiration",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-minimalist-high-end-architectural-abst-1774935333842-3f55bcd8.png?_wi=2",
-          imageAlt: "Minimalist Workspace",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-close-up-shot-of-a-professional-digita-1774935336409-4a0a3590.png?_wi=1",
-          imageAlt: "Design System",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/conceptual-high-tech-development-workspa-1774935333741-d2a2d385.png?_wi=1",
-          imageAlt: "Development",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/premium-branding-materials-business-card-1774935333994-98c0e9cf.png?_wi=1",
-          imageAlt: "Branding",
-        },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-minimalist-high-end-architectural-abst-1774935333842-3f55bcd8.png", imageAlt: "Swiss Design Inspiration" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-close-up-shot-of-a-professional-digita-1774935336409-4a0a3590.png", imageAlt: "Design System" }
       ]}
       mediaAnimation="blur-reveal"
       rating={5}
@@ -104,56 +64,26 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Web Design",
-          description: "Crafting intuitive interfaces rooted in Swiss design principles.",
-          icon: Layout,
+          title: "Web Design",          description: "Crafting intuitive interfaces rooted in Swiss design principles.",          icon: Layout,
           mediaItems: [
-            {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-close-up-shot-of-a-professional-digita-1774935336409-4a0a3590.png?_wi=2",
-              imageAlt: "Design",
-            },
-            {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-close-up-shot-of-a-professional-digita-1774935336409-4a0a3590.png?_wi=3",
-              imageAlt: "Design",
-            },
-          ],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-minimalist-high-end-architectural-abst-1774935333842-3f55bcd8.png?_wi=3",
-          imageAlt: "A minimalist, high-end architectural abstract photo in Swiss design style. Featuring crisp lines, mo",
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-close-up-shot-of-a-professional-digita-1774935336409-4a0a3590.png", imageAlt: "Design" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-close-up-shot-of-a-professional-digita-1774935336409-4a0a3590.png", imageAlt: "Design" }
+          ]
         },
         {
-          title: "Development",
-          description: "High-performance digital products engineered for long-term growth.",
-          icon: Code,
+          title: "Development",          description: "High-performance digital products engineered for long-term growth.",          icon: Code,
           mediaItems: [
-            {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/conceptual-high-tech-development-workspa-1774935333741-d2a2d385.png?_wi=2",
-              imageAlt: "Dev",
-            },
-            {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/conceptual-high-tech-development-workspa-1774935333741-d2a2d385.png?_wi=3",
-              imageAlt: "Dev",
-            },
-          ],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-close-up-shot-of-a-professional-digita-1774935336409-4a0a3590.png?_wi=4",
-          imageAlt: "A close-up shot of a professional digital design process, focused on typography and grid systems. Cl",
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/conceptual-high-tech-development-workspa-1774935333741-d2a2d385.png", imageAlt: "Dev" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/conceptual-high-tech-development-workspa-1774935333741-d2a2d385.png", imageAlt: "Dev" }
+          ]
         },
         {
-          title: "Branding",
-          description: "Identity systems designed to resonate and endure in a digital world.",
-          icon: PenTool,
+          title: "Branding",          description: "Identity systems designed to resonate and endure in a digital world.",          icon: PenTool,
           mediaItems: [
-            {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/premium-branding-materials-business-card-1774935333994-98c0e9cf.png?_wi=2",
-              imageAlt: "Brand",
-            },
-            {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/premium-branding-materials-business-card-1774935333994-98c0e9cf.png?_wi=3",
-              imageAlt: "Brand",
-            },
-          ],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/conceptual-high-tech-development-workspa-1774935333741-d2a2d385.png?_wi=4",
-          imageAlt: "Conceptual high-tech development workspace with a clean laptop screen showing elegant code. Minimali",
-        },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/premium-branding-materials-business-card-1774935333994-98c0e9cf.png", imageAlt: "Brand" },
+            { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/premium-branding-materials-business-card-1774935333994-98c0e9cf.png", imageAlt: "Brand" }
+          ]
+        }
       ]}
       title="Our Services"
       description="Tailored digital solutions built on clarity, functionality, and performance."
@@ -168,23 +98,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "1",
-          name: "Swiss Fintech Platform",
-          price: "Identity & UI/UX",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/premium-website-ui-showcase-for-a-swiss--1774935336225-2b72555a.png",
+          id: "1",          name: "Swiss Fintech Platform",          price: "Identity & UI/UX",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/premium-website-ui-showcase-for-a-swiss--1774935336225-2b72555a.png"
         },
         {
-          id: "2",
-          name: "Luxury Home Concept",
-          price: "Web Development",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/elegant-website-design-for-a-luxury-prod-1774935334055-d8d7ae3c.png",
+          id: "2",          name: "Luxury Home Concept",          price: "Web Development",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/elegant-website-design-for-a-luxury-prod-1774935334055-d8d7ae3c.png"
         },
         {
-          id: "3",
-          name: "Cloud Analytics SaaS",
-          price: "Branding & Web",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/professional-tech-platform-dashboard-cle-1774935334229-ca352e45.png",
-        },
+          id: "3",          name: "Cloud Analytics SaaS",          price: "Branding & Web",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/professional-tech-platform-dashboard-cle-1774935334229-ca352e45.png"
+        }
       ]}
       title="Selected Work"
       description="A curated collection of digital transformations."
@@ -199,26 +120,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "m1",
-          value: "100%",
-          title: "Crafted",
-          description: "In-house design & dev.",
-          icon: CheckCircle,
+          id: "m1",          value: "100%",          title: "Crafted",          description: "In-house design & dev.",          icon: CheckCircle
         },
         {
-          id: "m2",
-          value: "50+",
-          title: "Projects",
-          description: "Across DACH region.",
-          icon: Award,
+          id: "m2",          value: "50+",          title: "Projects",          description: "Across DACH region.",          icon: Award
         },
         {
-          id: "m3",
-          value: "12",
-          title: "Years",
-          description: "Cumulative agency experience.",
-          icon: Clock,
-        },
+          id: "m3",          value: "12",          title: "Years",          description: "Cumulative agency experience.",          icon: Clock
+        }
       ]}
       title="Craftsmanship at Scale"
       description="We believe digital experiences should be as robust as a Swiss watch."
@@ -228,16 +137,9 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactText
       useInvertedBackground={false}
-      background={{
-        variant: "plain",
-      }}
+      background={{ variant: "plain" }}
       text="Ready to discuss your digital future? We are available for select partnerships."
-      buttons={[
-        {
-          text: "Contact Us",
-          href: "mailto:hello@vista.ch",
-        },
-      ]}
+      buttons={[{ text: "Contact Us", href: "mailto:hello@vista.ch" }]}
     />
   </div>
 
@@ -246,28 +148,16 @@ export default function LandingPage() {
       columns={[
         {
           items: [
-            {
-              label: "Services",
-              href: "#services",
-            },
-            {
-              label: "Portfolio",
-              href: "#portfolio",
-            },
-          ],
+            { label: "Services", href: "#services" },
+            { label: "Portfolio", href: "#portfolio" }
+          ]
         },
         {
           items: [
-            {
-              label: "Contact",
-              href: "#contact",
-            },
-            {
-              label: "Imprint",
-              href: "#",
-            },
-          ],
-        },
+            { label: "Contact", href: "#contact" },
+            { label: "Imprint", href: "#" }
+          ]
+        }
       ]}
       logoText="Vista Digital"
     />
