@@ -70,23 +70,23 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-minimalist-high-end-architectural-abst-1774935333842-3f55bcd8.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-minimalist-high-end-architectural-abst-1774935333842-3f55bcd8.png?_wi=1",
           imageAlt: "Swiss Design Inspiration",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-minimalist-high-end-architectural-abst-1774935333842-3f55bcd8.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-minimalist-high-end-architectural-abst-1774935333842-3f55bcd8.png?_wi=2",
           imageAlt: "Minimalist Workspace",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-close-up-shot-of-a-professional-digita-1774935336409-4a0a3590.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-close-up-shot-of-a-professional-digita-1774935336409-4a0a3590.png?_wi=1",
           imageAlt: "Design System",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/conceptual-high-tech-development-workspa-1774935333741-d2a2d385.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/conceptual-high-tech-development-workspa-1774935333741-d2a2d385.png?_wi=1",
           imageAlt: "Development",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/premium-branding-materials-business-card-1774935333994-98c0e9cf.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/premium-branding-materials-business-card-1774935333994-98c0e9cf.png?_wi=1",
           imageAlt: "Branding",
         },
       ]}
@@ -109,15 +109,15 @@ export default function LandingPage() {
           icon: Layout,
           mediaItems: [
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-close-up-shot-of-a-professional-digita-1774935336409-4a0a3590.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-close-up-shot-of-a-professional-digita-1774935336409-4a0a3590.png?_wi=2",
               imageAlt: "Design",
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-close-up-shot-of-a-professional-digita-1774935336409-4a0a3590.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-close-up-shot-of-a-professional-digita-1774935336409-4a0a3590.png?_wi=3",
               imageAlt: "Design",
             },
           ],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-minimalist-high-end-architectural-abst-1774935333842-3f55bcd8.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-minimalist-high-end-architectural-abst-1774935333842-3f55bcd8.png?_wi=3",
           imageAlt: "A minimalist, high-end architectural abstract photo in Swiss design style. Featuring crisp lines, mo",
         },
         {
@@ -126,15 +126,15 @@ export default function LandingPage() {
           icon: Code,
           mediaItems: [
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/conceptual-high-tech-development-workspa-1774935333741-d2a2d385.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/conceptual-high-tech-development-workspa-1774935333741-d2a2d385.png?_wi=2",
               imageAlt: "Dev",
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/conceptual-high-tech-development-workspa-1774935333741-d2a2d385.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/conceptual-high-tech-development-workspa-1774935333741-d2a2d385.png?_wi=3",
               imageAlt: "Dev",
             },
           ],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-close-up-shot-of-a-professional-digita-1774935336409-4a0a3590.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/a-close-up-shot-of-a-professional-digita-1774935336409-4a0a3590.png?_wi=4",
           imageAlt: "A close-up shot of a professional digital design process, focused on typography and grid systems. Cl",
         },
         {
@@ -143,15 +143,15 @@ export default function LandingPage() {
           icon: PenTool,
           mediaItems: [
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/premium-branding-materials-business-card-1774935333994-98c0e9cf.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/premium-branding-materials-business-card-1774935333994-98c0e9cf.png?_wi=2",
               imageAlt: "Brand",
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/premium-branding-materials-business-card-1774935333994-98c0e9cf.png",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/premium-branding-materials-business-card-1774935333994-98c0e9cf.png?_wi=3",
               imageAlt: "Brand",
             },
           ],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/conceptual-high-tech-development-workspa-1774935333741-d2a2d385.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3BgBmVbQsEIWC0IJRSwiOFJGu9c/conceptual-high-tech-development-workspa-1774935333741-d2a2d385.png?_wi=4",
           imageAlt: "Conceptual high-tech development workspace with a clean laptop screen showing elegant code. Minimali",
         },
       ]}
